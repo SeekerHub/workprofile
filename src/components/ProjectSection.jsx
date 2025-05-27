@@ -9,7 +9,7 @@ const projects = [
     {
         name: "tvsLink",
         link: "https://github.com/SeekerHub/tvsLink",
-        description: "A mobile application where users can verify their official documents. It can be of extensive user for company who needs to verify their users.",
+        description: "A mobile application where users can verify their official documents. It can be of extensive use for companies who needs to verify their users. It is built using React Native and Expo, making it easy to develop and deploy on both Android and iOS platforms.",
     },
     {
         name: "shortanswersimilarity plugin",
@@ -41,6 +41,7 @@ const ProjectSection = () => (
                 </li>
             ))}
         </ul>
+        <div className="mt-4 font-mont text-blue-400 cursor-pointer pl-5">Click to Load more ......</div>
     </section>
 );
 
