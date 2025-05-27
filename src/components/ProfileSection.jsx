@@ -9,17 +9,17 @@ export default function ProfileSection() {
       </div> */}
       <div>
         <h2 className="text-3xl mb-2">
-          Hey, I'm Bhavesh.{" "}
+          hey, I'm bhavesh.{" "}
           <span className="text-zinc-300 text-xl font-montserrat">
-            I'm a frontend developer and a anime freak.
+            I'm a frontend developer and a adventure freak.
           </span>
         </h2>
         <div className="flex text-3xl space-x-4 mt-2 ">
           <a href="#"><FaTwitter /></a>
-          <a href="#"><FaInstagram /></a>
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGithub /></a>
-          <a href="/Bhavesh_Resume.pdf" download>
+          <a href="#" className="text-red-400"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/bhavesh1999/" className="text-blue-400"><FaLinkedin /></a>
+          <a href="https://github.com/SeekerHub" ><FaGithub /></a>
+          <a href="https://drive.google.com/file/d/1fXDjeLEbOwt_HuPuS0_Pd1DSwO5hRLxj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-gray-400">
             <FaFileDownload /></a>
         </div>
       </div>
