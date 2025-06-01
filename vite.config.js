@@ -13,7 +13,8 @@ export default defineConfig({
         theme: {
           extend: {
             fontFamily: {
-              mont: ['Montserrat', 'sans-serif'],
+              "mont": ['Montserrat', 'sans-serif'],
+              "roboto": ['Roboto', 'sans-serif'],
             },
             colors: {
               'zinc-900': '#111827',

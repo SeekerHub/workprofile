@@ -21,11 +21,17 @@ const projects = [
         link: "",
         description: "An application that allows users to shorten long URLs into more manageable links. It provides a simple interface for users to input their long URLs and receive a shortened version in return.",
     },
+    
+    {
+        name: "Weather App",
+        link: "",
+        description: "A simple weather application that provides current weather information for any location. It uses a weather API to fetch real-time data and display it in a user-friendly format. Users can view 5-day weather forecasts, current conditions, and more.",
+    },
 ];
 
 const ProjectSection = () => (
     <section className="">
-        <h2 className="text-2xl font-semibold mb-4 font-montserrat">Some of my works .....</h2>
+        <h2 className="text-2xl font-semibold mb-4 font-roboto">Some of my works .....</h2>
         <ul className="list-disc pl-6 space-y-4">
             {projects.map((project, idx) => (
                 <li key={idx}>
@@ -33,11 +39,11 @@ const ProjectSection = () => (
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-mont text-blue-400 hover:text-blue-400 mr-2"
+                        className="text-xl font-mont text-blue-400 hover:text-blue-400 mr-2"
                     >
                         {project.name}
                     </a>
-                    <span className="text-gray-300">{"- "} {project.description}</span>
+                    <span className="text-xl text-gray-450 opacity-70">{"- "} {project.description}</span>
                 </li>
             ))}
         </ul>
